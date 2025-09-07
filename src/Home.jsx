@@ -44,7 +44,7 @@ const Home = () => {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Soins médico-esthétiques proposés</h2>
+        <h2 className="text-2xl font-semibold">Soins médico-esthétiques proposés au cabinet</h2>
         <ul className="list-disc list-inside space-y-1">
           <li>Injections d’acide hyaluronique</li>
           <li>Fils tenseurs résorbables</li>
@@ -65,7 +65,7 @@ const Home = () => {
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold">Parcours patient</h2>
         <ol className="list-decimal list-inside space-y-1">
-          <li>Consultation initiale (60 €) pour évaluer la demande et poser une indication.</li>
+          <li>Consultation initiale pour évaluer la demande et poser une indication.</li>
           <li>Délai de réflexion avant tout acte esthétique.</li>
           <li>Réalisation du traitement dans des conditions optimales de sécurité.</li>
           <li>Suivi post-acte systématique proposé.</li>
@@ -97,9 +97,9 @@ const Home = () => {
             <tr><td className="border p-2">Peeling superficiel + LED</td><td className="border p-2">À partir de 180 €</td></tr>
             <tr><td className="border p-2">Peeling moyen</td><td className="border p-2">À partir de 250 €</td></tr>
             <tr><td className="border p-2">Microneedling</td><td className="border p-2">À partir de 180 €</td></tr>
-            <tr><td className="border p-2">Radiofréquence (Morpheus 8®)</td><td className="border p-2">À partir de 300 €</td></tr>
+            <tr><td className="border p-2">Radiofréquence fractionnée (Morpheus 8®)</td><td className="border p-2">À partir de 300 €</td></tr>
+            <tr><td className="border p-2">Barophorèse (JetPeel®)</td><td className="border p-2">À partir de 150 €</td></tr>
             <tr><td className="border p-2">Lumière Pulsée Intense</td><td className="border p-2">À partir de 100 €</td></tr>
-            <tr><td className="border p-2">JetPeel®</td><td className="border p-2">À partir de 150 €</td></tr>
           </tbody>
         </table>
         <p className="text-sm text-gray-600 italic">
