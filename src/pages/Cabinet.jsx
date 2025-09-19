@@ -7,13 +7,6 @@ const Cabinet = () => {
       <p>
         Le cabinet médical Kalon Medica a été fondé en 2025 par le Dr Pierre-Le Seac’h, médecin diplômé, formé à de nombreux soins médico-esthétiques selon les standards scientifiques et déontologiques.
       </p>
-      <p className="text-yellow-800 font-semibold">
-        ⚠️ À ce jour, la médecine esthétique n’est pas reconnue comme une spécialité médicale en France. Il n'existe donc pas officiellement de « médecins esthétiques », mais des médecins formés aux soins médico-esthétiques.
-      </p>
-      <p>
-        Pourtant, les avancées en physiologie du vieillissement permettent aujourd’hui de proposer des soins médicaux visant à corriger certains signes visibles du temps — sans recourir à la chirurgie.
-        Cette approche répond à une demande croissante pour des interventions moins invasives, mais qui nécessitent une expertise rigoureuse et multidisciplinaire.
-      </p>
       <p>
         Le Dr Pierre-Le Seac’h a acquis cette expertise par un parcours de formation exigeant, combinant diplômes universitaires, ateliers pratiques, masterclass et congrès spécialisés.
       </p>
@@ -34,6 +27,7 @@ const Cabinet = () => {
         Les soins sont réalisés dans des conditions d’hygiène rigoureuse.
         Une attention particulière est portée à la sécurisation des procédures, notamment grâce à l’utilisation systématique de l’échographie faciale pour les injections, afin de réduire au maximum les risques, même rares.
       </p>
+    <p className="text-sm text-red-700 italic mt-8">En cas d'urgence et d'indisponibilité du cabinet, contacter le 15.</p>
     </div>
   );
 };

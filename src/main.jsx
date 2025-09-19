@@ -6,6 +6,8 @@ import Cabinet from './pages/Cabinet';
 import Soins from './pages/Soins';
 import Parcours from './pages/Parcours';
 import Honoraires from './pages/Honoraires';
+import Rdv from './pages/Rdv';
+import MentionsLegales from './pages/MentionsLegales';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,6 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="soins" element={<Soins />} />
           <Route path="parcours" element={<Parcours />} />
           <Route path="honoraires" element={<Honoraires />} />
+          <Route path="rdv" element={<Rdv />} />
+          <Route path="mentions-legales" element={<MentionsLegales />} />
         </Route>
       </Routes>
     </BrowserRouter>
