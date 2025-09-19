@@ -1,0 +1,1 @@
+<div><h1 className='text-2xl font-bold'>Le cabinet</h1><p>Contenu de la page d’accueil à insérer ici.</p></div>

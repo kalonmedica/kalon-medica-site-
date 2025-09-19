@@ -1,0 +1,1 @@
+<div><h1 className='text-2xl font-bold'>Parcours patient</h1><p>Détail du parcours patient ici.</p></div>
