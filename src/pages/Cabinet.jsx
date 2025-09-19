@@ -4,7 +4,7 @@ const Cabinet = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">Le cabinet Kalon Medica</h1>
-      <p>Contenu à venir.</p>
+      <p>Bienvenue. Le contenu de cette page sera complété ultérieurement.</p>
     </div>
   );
 };
