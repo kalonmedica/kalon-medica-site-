@@ -2,9 +2,9 @@ import React from "react";
 
 const Soins = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Soins médico-esthétiques proposés au cabinet</h1>
-      <ul className="list-disc list-inside space-y-1">
+    <div className="space-y-4">
+      <h1 className="text-2xl font-bold">Soins médico-esthétiques proposés au cabinet</h1>
+      <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Injections d’acide hyaluronique</li>
         <li>Fils tenseurs résorbables</li>
         <li>Rhinoplastie médicale</li>

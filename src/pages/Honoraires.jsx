@@ -2,9 +2,9 @@ import React from "react";
 
 const Honoraires = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Honoraires</h1>
-      <p className="text-sm text-red-600 font-medium mb-2">
+    <div className="space-y-4">
+      <h1 className="text-2xl font-bold">Honoraires</h1>
+      <p className="text-sm text-red-600 font-medium">
         ⚠️ Les actes réalisés au cabinet Kalon Medica sont à visée esthétique et ne sont pas remboursés par l’Assurance Maladie.
       </p>
       <table className="w-full text-left border border-gray-300">
@@ -29,8 +29,8 @@ const Honoraires = () => {
           <tr><td className="border p-2">Lumière Pulsée Intense</td><td className="border p-2">À partir de 100 €</td></tr>
         </tbody>
       </table>
-      <p className="text-sm text-gray-600 italic mt-4">
-        ⚠️ Une consultation préalable est systématique afin d’établir un plan de traitement personnalisé, un devis, et d’informer précisément le patient sur les indications, les résultats attendus et les éventuels risques associés. Celle-ci est obligatoire et sera facturée conformément au Code de Déontologie Médicale.
+      <p className="text-sm text-gray-600 italic">
+        ⚠️ Une consultation préalable est systématique afin d’établir un plan de traitement personnalisé, un devis, et d’informer précisément le patient sur les indications, les résultats attendus et les éventuels risques associés.
       </p>
     </div>
   );
